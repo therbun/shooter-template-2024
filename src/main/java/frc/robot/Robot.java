@@ -29,7 +29,7 @@ public class Robot extends TimedRobot
     XboxController joystick;
 
 
-    static final int deviceId1 = 3;
+    static final int deviceId1 = 9;
     static final int deviceId2 = 17;
     static final int deviceId3 = 3;
     static final int deviceId4 = 4;
@@ -98,7 +98,7 @@ public class Robot extends TimedRobot
 
         //controller1.setReference(velocity_units, CANSparkMax.ControlType.kVelocity);
 
-        sparkmax1.setVoltage(-leftFF * 12);
+        sparkmax1.setVoltage(leftFF * 12);
         sparkmax2.setVoltage(leftFF * 12);
         //sparkmax3.setVoltage(leftFF);
         //sparkmax4.setVoltage(leftFF);
